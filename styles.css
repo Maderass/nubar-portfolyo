@@ -11336,3 +11336,8 @@ section.resume-section .resume-section-content {
 .container-fluid {
   background: transparent !important;
 }
+/* TÜM İÇERİK SEKMELERİNİ ŞEFFAF YAPMA */
+.container-fluid,
+.resume-section {
+  background: transparent !important;
+}
