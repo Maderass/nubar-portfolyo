@@ -104,11 +104,20 @@ body {
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
+  font-weight: var(--bs-body-weight);
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+
+  /* YENİ ARKA PLAN GÖRSELİ VE OKUNURLUK KATMANI */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url("assets/img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
